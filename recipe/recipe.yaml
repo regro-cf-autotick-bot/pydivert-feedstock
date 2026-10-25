@@ -14,7 +14,7 @@ source:
 
 build:
   number: 0
-  skip: not win
+  skip: not win and not linux
   script: ${{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -45,4 +45,3 @@ extra:
   recipe-maintainers:
     - jonashaag
     - freundTech
-
